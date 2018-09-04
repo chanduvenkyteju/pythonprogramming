@@ -1,4 +1,3 @@
-
 n=(input())
 x=n
 r=0
@@ -7,6 +6,6 @@ while(n>0):
     r=r*10+dig
     n=n//10
 if(x==r):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
