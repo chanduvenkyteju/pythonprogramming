@@ -1,7 +1,7 @@
 x=int(raw_input())
 if x>0:
-	print "positive"
-elif x<0:
-	print "negative"
+	print "Positive"
+elif x==0
+	print "Zero"
 else:
-	print"zero"
+	print"Negative"
