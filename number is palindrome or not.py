@@ -1,5 +1,5 @@
 
-n=int(input())
+n=(input())
 x=n
 r=0
 while(n>0):
