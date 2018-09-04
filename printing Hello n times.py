@@ -1,2 +1,2 @@
 n=int(raw_input())
-print (n*" Hello\n")
+print (n* " Hello\n")
