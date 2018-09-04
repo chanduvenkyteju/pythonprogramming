@@ -3,8 +3,8 @@ b=int(raw_input())
 c=int(raw_input())
 if a>b:
 	if a>c:
-		print "a is greater"
+		print (a)
 elif b>c:		
-           	print "b is greater"
+           	print (b)
 else:
-	print "c is greater"
+	print (c)
