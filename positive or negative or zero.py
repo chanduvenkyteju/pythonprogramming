@@ -1,7 +1,8 @@
 P=int(raw_input())
-if P>0:
+n=(P%2)
+if n>0:
 	print "Positive"
-elif P==0:
+elif n==0:
 	print "Zero"
 else:
 	print"Negative"
