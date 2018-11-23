@@ -1,3 +1,3 @@
-m=input()
-a=m.replace(" ","")
-print(len(a))
+x=input()
+y=x.replace(" ","")
+print(len(y))
