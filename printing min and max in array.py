@@ -1,7 +1,7 @@
 n=int(input())
-a=[]
+x=[]
 for i in range(0,n):
-    a.append(int(input()))
-l=min(a)
-h=max(a)
-print(l,h)
+    x.append(int(input()))
+low=min(x)
+high=max(x)
+print(low,high)
