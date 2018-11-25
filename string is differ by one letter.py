@@ -1,12 +1,12 @@
 string1=input()
 string2=input()
 if len(string1) == len(string2):
-    count_diffs = 0
+    count= 0
     for a, b in zip(string1, string2):
         if a!=b:
-            if count_diffs:
+            if count:
                 print("no")
-            count_diffs += 1
+            count += 1
             print("yes")
             
 print("no")  
