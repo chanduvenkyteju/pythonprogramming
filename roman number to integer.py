@@ -8,7 +8,6 @@ class py_solution:
             else:
                 int_val += rom_val[s[i]]
         return int_val
-
-print(py_solution().roman_to_int('IV'))
-print(py_solution().roman_to_int('X'))
-print(py_solution().roman_to_int('XI'))
+for i in range(0,1):
+    n=input()
+    print(py_solution().roman_to_int(n))
