@@ -1,9 +1,9 @@
-x,y=map(str,input().split())
-z=0
-for i in range(0,len(x)):
-    if((ord(x[i])-ord(x[i-1]))!=(ord(y[i])-ord(y[i-1]))):
-        z=z+1
-if(z>0):
+m,n=map(str,input().split())
+O=0
+for i in range(0,len(m)):
+    if((ord(m[i])-ord(m[i-1]))!=(ord(n[i])-ord(n[i-1]))):
+        O=O+1
+if(O>0):
     print("no")
 else:
     print("yes")
