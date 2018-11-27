@@ -1,4 +1,4 @@
-m,n=map(str,input().split())
+m,n=map(str,(raw_input()).split())
 O=0
 for i in range(0,len(m)):
     if((ord(m[i])-ord(m[i-1]))!=(ord(n[i])-ord(n[i-1]))):
