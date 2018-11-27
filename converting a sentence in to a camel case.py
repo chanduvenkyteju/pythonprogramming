@@ -1,6 +1,6 @@
-def cond(word):
+def c(word):
         import re
-        return ''.join(x.capitalize() or ' ' for x in word.split(' ')) 
+        return " ".join(x.capitalize() or " " for x in word.split(" ")) 
     
-n=input()
-print(cond(n))
+n=(raw_input())
+print(c(n))
