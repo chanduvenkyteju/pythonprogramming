@@ -1,7 +1,7 @@
-n=int(input())
-x=[]
+n=int(raw_input())
+O=[]
 for i in range(0,n):
-    x.append(int(input()))
-low=min(x)
-high=max(x)
+    O.append(int(input()))
+low=min(O)
+high=max(O)
 print(low,high)
