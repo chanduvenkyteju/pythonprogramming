@@ -1,4 +1,4 @@
-z=int(input())
+z=int(raw_input())
 f=1
 if(z==0):
 	print("1")
