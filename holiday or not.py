@@ -1,4 +1,4 @@
-v=['Monday','Tuesday','Wednesday','Thursday','Friday','monday','tueaday','wednesday','thursday','friday','saturday']
+v=['Monday','Tuesday','Wednesday','Thursday','Friday']
 d=str(input())
 if (d in v):
     print("no")
