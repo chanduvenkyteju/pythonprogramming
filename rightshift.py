@@ -1,5 +1,5 @@
 K1,N=map(int,input().split())
-K=input().split()
+K=(input().split())
 while(N>0):
      K.insert(0,K.pop())
      N=N-1
