@@ -1,4 +1,4 @@
-x=input()
+x=(raw_input())
 c=1
 for i in range(0,len(x)):
     if(x[i]=="."):
