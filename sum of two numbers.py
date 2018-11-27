@@ -1,4 +1,4 @@
-x=int(input())
-y=int(input())
-z=(x+y)
-print(z)
+m=int(raw_input())
+n=int(raw_input())
+O=(m+n)
+print(O)
