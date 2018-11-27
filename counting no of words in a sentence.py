@@ -1,3 +1,3 @@
-y= 'I am having a very nice day.'
+y=(raw_input())
 z=len(y.split())
 print(z)
