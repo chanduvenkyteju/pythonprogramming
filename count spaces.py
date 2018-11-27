@@ -1,3 +1,3 @@
-x=(raw_input())
+x=(input())
 y=x.replace(" ","")
 print(len(y))
