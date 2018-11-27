@@ -1,3 +1,3 @@
-y=(raw_input())
-z=len(y.split())
-print(z)
+O=(raw_input())
+p=len(O.split())
+print(p)
