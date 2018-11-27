@@ -1,7 +1,7 @@
-a=int(input())
-if(a &(a-1)):
+z=int(raw_input())
+if(z &(z-1)):
     print("no")
-elif(a==1):
+elif(z==1):
     print("no")
 else:
      print("yes")
