@@ -1,4 +1,4 @@
-m=int(raw_input())
-n=int(raw_input())
+m=int(input())
+n=int(input())
 O=(m+n)
 print(O)
