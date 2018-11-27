@@ -1,5 +1,5 @@
-s1=(raw_input())
-s2=(raw_input())
+s1=str(input())
+s2=str(input())
 c1=0
 c2=0
 for i in s1:
