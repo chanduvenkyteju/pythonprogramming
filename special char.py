@@ -1,8 +1,8 @@
-x=(raw_input())
-c=0
-for i in range(0,len(x)):
-    if(x[i].isdigit() or x[i].isalpha() or x[i]==" "):
-        c=c
+q=(raw_input())
+p=0
+for i in range(0,len(q)):
+    if(q[i].isdigit() or q[i].isalpha() or q[i]==" "):
+        p=p
     else:
-        c=c+1
-print(c)
+        p=p+1
+print(p)
