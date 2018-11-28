@@ -1,4 +1,4 @@
-N=int(input())
+N=int(raw_input())
 i=1
 while(i<=N):
     K=0
@@ -9,5 +9,5 @@ while(i<=N):
                 K=K+1
             j=j+1
         if(K==2):
-            print(i,end=' ')
+            print(i,end=(' '))
     i=i+1
