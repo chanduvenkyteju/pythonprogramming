@@ -1,9 +1,9 @@
-N=int(raw_input())
+N=int(input())
 a=[]
-S="kabali"
 for i in range(0,N):
     a.append(str(input()))
 c=0
+S="kabali"
 for i in range(0,N):
     if(sorted(a[i])==sorted(S)):
         c=c+1
