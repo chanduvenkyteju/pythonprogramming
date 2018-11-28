@@ -1,12 +1,12 @@
-N=int(input())
+N=int(raw_input())
 a=[]
-S='kabali'
+S="kabali"
 for i in range(0,N):
     a.append(str(input()))
-count=0
+c=0
 for i in range(0,N):
     if(sorted(a[i])==sorted(S)):
-        count=count+1
+        c=c+1
     else:
-        count=count
-print(count) 
+        c=c
+print(c) 
