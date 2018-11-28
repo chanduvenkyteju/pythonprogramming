@@ -1,4 +1,4 @@
-L,R=map(int,input().split())
+L,R=map(int,(raw_input()).split())
 if(L>R):
     c=L
 else:
