@@ -1,4 +1,4 @@
-a,b=map(int,input().split())
+a,b=map(int,(raw_input()).split())
 m=0
 x=b-1
 while(m==0 and x>1):
