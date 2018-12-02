@@ -1,3 +1,3 @@
-n=int(raw_input())
-m=int(raw_input())
-print(str(n)+str(m))
+l=int(raw_input())
+o=int(raw_input())
+print(str(l)+str(o))
