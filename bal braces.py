@@ -1,4 +1,4 @@
-z=str(input())
+z=str(raw_input())
 p=0
 for i in range(0,len(z)):
     if(z[i]=='('):
