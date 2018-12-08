@@ -1,4 +1,4 @@
-N,K=map(int,input().split())
+N,K=map(int,(raw_input()).split())
 c=0
 while(N!=0):
     p=N%10
