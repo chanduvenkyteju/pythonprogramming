@@ -1,10 +1,10 @@
 N=int(raw_input())
 S=input().split()
-c=1
+count=1
 for i in range(1,len(S)-1):
     if(S[i]<=S[i+1]):
-        c=c+1
-if(c==len(S)):
+        count=count+1
+if(count==len(S)):
     print("yes")
 else:
     print("no")
