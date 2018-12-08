@@ -1,8 +1,8 @@
 S=(raw_input())
-s=str(S.lower())
-p=[]
-for i in s:
-    if(s.count(i)==1):
-        p.append(i)
-St=" ".join(map(str,p))
+T=str(S.lower())
+M=[]
+for i in T:
+    if(T.count(i)==1):
+        M.append(i)
+St=" ".join(map(str,M))
 print(St)
