@@ -1,4 +1,4 @@
 import math
-A= int(input())
+A= int(raw_input())
 radian = math.radians(A)
 print(round(math.sin(radian),3))
