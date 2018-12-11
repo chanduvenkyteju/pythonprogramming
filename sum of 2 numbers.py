@@ -1,12 +1,12 @@
 N,X=map(int,(raw_input()).split())
-l=input().split()
+a=input().split()
 z=0
-for i in range(0,len(l)):
+for i in range(0,len(a)):
     c=0
-    if(i==len(l)-1):
-        c=int(l[0])+int(l[i])
+    if(i==len(a)-1):
+        c=int(a[0])+int(a[i])
     else:
-        c=int(l[i])+int(l[i+1])
+        c=int(a[i])+int(a[i+1])
     if(c==X):
         z=z+1
 if(z>0):
