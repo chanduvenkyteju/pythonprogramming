@@ -1,10 +1,10 @@
 N=int(raw_input())
-a=input().split()
-a.sort()
+p=(raw_input()).split()
+p.sort()
 S=0
-s=len(a)
+s=len(p)
 while(s>0):
-    b=int(a[s-1])
+    b=int(p[s-1])
     S=S*10+b
     s=s-1
 print(S)
