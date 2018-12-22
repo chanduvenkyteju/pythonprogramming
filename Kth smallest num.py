@@ -1,0 +1,6 @@
+N,K=((raw_input()).split())
+N=int(int(N))
+K=int(int(K))
+c=(raw_input()).split()
+c.sort()
+print(c[K-1])
