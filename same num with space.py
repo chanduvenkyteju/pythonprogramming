@@ -9,4 +9,4 @@ while(a>0):
     a=a//10
     x.append(z)
 for i in range(v-1,-1,-1):
-    print(x[i],end=' ')
+    print(x[i],end=" ")
