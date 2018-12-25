@@ -5,4 +5,5 @@ O=list(str(N))
 while K>0:
     K=K-1
     del(O[K])
-print(''.join(O))
+M=(''.join(O))
+print(M)
