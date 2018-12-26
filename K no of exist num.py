@@ -9,4 +9,4 @@ for i in a:
         b.append(i)
         while i in a:
             a.remove(i)
-print(*b)
+print("".join(b))
