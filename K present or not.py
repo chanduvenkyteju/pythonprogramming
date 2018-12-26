@@ -1,8 +1,10 @@
-N,K=map(int,(raw_input()).split())
-a=input().split()
+N,K=(raw_input().split())
+N=int(N)
+K=int(K)
+a=(raw_input()).split()
 for i in range(0,N):
     if(int(a[i])==K):
-        print("Yes")
+        print("yes")
         break
     else:
-        print("No")
+        print("no")
