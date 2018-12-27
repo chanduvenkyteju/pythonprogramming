@@ -1,5 +1,5 @@
 N=(raw_input()).split()
-N=list(Nap(int,N))
+N=list(map(int,N))
 n=N[0]/2
 a=N[1]
 b=N[2]
