@@ -1,5 +1,5 @@
 S,P=map(str,(raw_input()).split())
-if(S in P):
+if(P in S):
     print("yes")
 else:
     print("no")
