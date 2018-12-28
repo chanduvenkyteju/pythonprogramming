@@ -5,4 +5,4 @@ for i in S:
         a.append(i)
 for i in a:
     if(S.count(i)==1):
-        print(i,end=(""))
+        print("".join(i))
