@@ -1,4 +1,4 @@
-n=int(raaw_input())
+n=int(raw_input())
 l=(raw_input()).split()
 l.sort()
 c=0
