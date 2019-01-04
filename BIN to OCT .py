@@ -1,3 +1,2 @@
 N= (raw_input())
-K= oct(int(N,2))[2:]
-print(K)
+print(oct(int(N,2))[2:])
