@@ -1,5 +1,5 @@
 N= int(raw_input())
-a= input().split()
+a= (raw_input()).split()
 for i in str(N):
     K=a[0]
 for i in range(1,N) :
