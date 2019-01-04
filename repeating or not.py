@@ -1,8 +1,10 @@
 N=(raw_input())
-c=0
+a=[]
 for i in N:
-    c=c+1
-if(c>1):
-    print("yes")
-else:
+    if(i not in a):
+        a.append(i)
+a="".join(a)
+if(N==a):        
     print("no")
+else:
+    print("yes")
