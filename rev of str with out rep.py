@@ -1,8 +1,8 @@
 S=str(raw_input())
-a=[]
+p=[]
 for i in S:
-    if(i not in a):
-        a.append(i)
-a=a[::-1]
-S1="".join(map(str,a))
-print(S1)
+    if(i not in p):
+        p.append(i)
+p=p[::-1]
+K="".join(map(str,p))
+print(K)
