@@ -8,8 +8,6 @@ d=a[N:]
 for i in c:
     if(i in d):
         b.append(i)
-for i in b:        
-    if (i not in k):
-        k.append(i)
-k=sorted(k)        
-print(" ".join([str(i) for i in k]))
+        d.remove(i)
+b=sorted(b)        
+print(" ".join([str(i) for i in b]))
