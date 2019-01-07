@@ -7,5 +7,9 @@ for i in S:
             a=a+1
         else:
             a=a+1
-k=" ".join(map(str,S))
+k=" ".join(str(i) for i in S)
+for i in k:
+    k=k.replace(".","")
 print(k)
+
+
