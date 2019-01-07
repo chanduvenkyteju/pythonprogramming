@@ -7,5 +7,5 @@ for i in S:
             a=a+1
         else:
             a=a+1
-b=" ".join(map(str,S))
-print(b)
+k=" ".join(map(str,S))
+print(k)
