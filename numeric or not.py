@@ -1,4 +1,4 @@
-N=str(raw_input())
+N=(raw_input())
 a=[]
 for i in range(0,len(N)):
     if(N[i].isnumeric()):
