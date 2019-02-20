@@ -1,6 +1,6 @@
-n,w=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
+n,w=map(int,(raw_input()).split())
+a=list(map(int,(raw_input()).split()))
+b=list(map(int,(raw_input()).split()))
 d=[]
 c=0
 for i in range(n):
