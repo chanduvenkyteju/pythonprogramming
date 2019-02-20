@@ -1,8 +1,8 @@
-n=int(input())
+n=int(raaw_input())
 a,b=[],[]
 c=0
 for i in range(0,n):
-  a.append(list(map(int,input().split())))
+  a.append(list(map(int,(raw_input()).split())))
 for i in range(0,n+2):
   if i==0:
     b.append([0]*(n+2))
