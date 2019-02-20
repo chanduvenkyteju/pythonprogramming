@@ -1,4 +1,4 @@
-n=int(raaw_input())
+n=int(raw_input())
 a,b=[],[]
 c=0
 for i in range(0,n):
