@@ -1,7 +1,7 @@
 a=(raw_input())
+a=a.lower()
 b=[]
 c=[]
-a=a.lower()
 for i in range(0,len(a)):
 	for j in range(0,len(a)):
 		z=a[i:j+1]
