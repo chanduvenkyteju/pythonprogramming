@@ -5,6 +5,7 @@ def checker(a,b,i,j):
         if(b[l][m]==0):
           return(k)
   return(k+1)
+
 a=list(map(int,(raw_input()).split()))
 b=[]
 sign=0
@@ -15,3 +16,11 @@ for i in range(a[0]):
     c=b[i][j]
     if(c==1):
       p=checker(a,b,i,j)
+      if(sign<p):
+        sign=p
+for i in range(sign):
+  for j in range(sign):
+    if((sign-1)==j):
+      print(1)
+    else:
+      print(1,end=' ')
