@@ -1,4 +1,4 @@
-n=int(input())
+n=int(raw_input())
 a=[]
 s=0
 for i in range(n):
