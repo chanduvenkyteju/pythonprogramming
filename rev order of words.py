@@ -1,3 +1,3 @@
-p,q=map(str,(raw_input()).split())
-p,q=q,p
-print(p,q)
+l= list(map(str,(raw_input()).split()))
+l= l[::-1]
+print(" ".join(map(str,l)))
