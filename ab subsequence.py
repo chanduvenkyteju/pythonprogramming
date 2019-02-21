@@ -17,4 +17,4 @@ for z in range(len(n)-1):
 if len(t)==0:
     print(0)
 else:
-    print(maz(t))
+    print(max(t))
