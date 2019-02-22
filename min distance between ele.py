@@ -1,12 +1,15 @@
-n=int(raw_input())
-k=(raw_input()).split()
-s=[]
-x,y=map(int,(raw_input()).split())
-for i in k:
-    s.append(int(i))
-a=s.index(x)
-b=s.index(y)
-if(a>b):
-    print(a-b)
-else:
-    print(b-a)
+n= int(raw_input())
+a = list(map(int,(raw_input()).split()))
+u,v = map(int,(raw_input()).split())
+x =[index for index, value in enumerate(a) if value == u]
+y = [index for index, value in enumerate(a) if value == v]
+k = n
+for i in range(len(x)):
+    for j in range(len(y)):
+        if(x[i]>y[j]):
+            d = x[i]-y[j]
+        else:
+            d = y[j]-x[i]
+        if(d<k):
+            k = d
+print(k)
