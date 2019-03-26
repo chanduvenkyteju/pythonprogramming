@@ -11,5 +11,4 @@ for x in l:
         if(len(y)==x):
             if y not in s:
                 s.append(y)
-for i in s:
-    print(i,end=" ")
+print(" ".join(s))
