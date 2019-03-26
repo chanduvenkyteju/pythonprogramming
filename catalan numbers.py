@@ -2,7 +2,7 @@ def fact(l):
     k=1
     for i in range(1,l+1):
         k=k*i
-    return m
+    return k
 
 n=int(raw_input())
 a=[]
