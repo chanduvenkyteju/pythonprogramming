@@ -15,4 +15,4 @@ for i in range(len(k)):
   for j in range(len(k[i])):
     if k[i][j]==9:
       k[i][j]=0
-  print(" ".join(str(i) for i in k[i]))
+  print(* k[i])
